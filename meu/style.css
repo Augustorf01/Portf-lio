@@ -1,0 +1,65 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+body {
+    min-height: 100%;
+    width: 100%;
+    font-family: "Helvetica Now Display DW", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5625rem;
+    font-weight: 500;
+    letter-spacing: normal;
+    -webkit-text-size-adjust: 100%;
+    color: #0f141e;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.375rem;
+    letter-spacing: normal;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* NAVBAR */
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none; 
+    font-size: 1.5rem;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: gray;
+}
